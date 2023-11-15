@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+      background-color: rgb(249, 247, 246);
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px 20px;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+      
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 15px;
+}
+button{
+    background-color: aqua;
+    width: 100%;
+    border: 1px;
+    border-radius: 2px;
+    font-family: inherit;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

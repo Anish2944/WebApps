@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <br>
+    <form id="form">
+        <div class="form-control">
+            <label>Name</label>
+            <br>
+            <input type="text" placeholder="Enter Your name">
+        </div>
+            <div class="form-control">
+                <label>Email</label>
+                <br>
+                <input type="email" placeholder="Enter Your email">
+            </div>
+            <div class="form-control">
+                <label>Age</label>
+                <br>
+                <input type="number" placeholder="Enter Your age">
+            </div>
+        <div class="form-control">
+            <label for="role" id="label-role">Which option best describe you?</label>
+            <br>
+            <select name="role" id="role" >
+                <option value="st">Student</option>
+                <option value="pro">Professional</option>
+                <option value="eml">Employee</option>
+                <option value="ex">Expert</option>
+                <option value="oth">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Would you recommend your friend?</label>
+            <br>
+            <label for="y"><input id="y" type="radio" name="ans" value="yup">Yes</label>
+            <br>
+            <label for="n"><input id="n" type="radio" name="ans" value="nope">No</label>
+            <br>
+            <label for="m"><input id="m" type="radio" name="ans" value="notsure">Maybe</label>
+            <br>
+        </div>
+        <div class="form-control">
+            <label>Language and frameworks known(check all that apply)</label>
+            <br>
+            <label for="c"><input type="checkbox" id="c" name="lang" value="prom-1" >C</label>
+            <br>
+            <label for="c++"><input type="checkbox" id="c++" name="lang" value="prom-2" >C++</label>
+            <br>
+            <label for="java"><input type="checkbox" id="java" name="lang" value="prom-3" >Java</label>
+            <br>
+            <label for="py"><input type="checkbox" id="py" name="lang" value="prom-4" >Python</label>
+            <br>
+            <label for="sw"><input type="checkbox" id="sw" name="lang" value="prom-5" >Swift</label>
+            <br>
+            <label for="r"><input type="checkbox" id="r" name="lang" value="prom-6" >React</label>
+            <br>
+            <label for="d"><input type="checkbox" id="d" name="lang" value="prom-7" >django</label>
+        </div>
+        <div class="form-control">
+            <label>Add any Comment or suggestions</label>
+            <br>
+            <textarea cols="40" rows="5"></textarea>
+        </div>
+            <button value="submit">Submit</button>    
+    </form>
+</body>
+</html>

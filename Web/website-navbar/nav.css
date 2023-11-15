@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+.Top-container{
+    background-image: url(https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Top-container h1{
+    color: white;
+    margin-bottom: 0%;
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.text{
+    margin: 50px 5%;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.svg{
+    margin: 0;
+    height: 100px;
+    width: 90px;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+.navbar.active{
+    background-color:rgb(136, 209, 28);
+}
+.join{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: chartreuse;
+    font-size: large;
+    cursor: pointer;
+}
+.pop-con{
+    position: fixed;
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5%;
+    flex-direction: column;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    height: 200px;
+    top: 30%;
+    opacity: 1;
+    transition: all 0.7s;
+}
+h4{
+    font-size: xx-large;
+}
+label{
+    margin-top: 50px;
+    font-size: larger;
+}
+.blur.con{
+    filter: blur(5px) brightness(.7);
+}
+.input{
+    border: solid black;
+    padding: 5px;
+    font-size: 17px;
+    margin: 10px 0;
+    text-align: center;
+}
+.btn{
+    border: solid black;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    background-color: chartreuse;
+}
+.btn:hover{
+    filter: brightness(.7);
+}
+.join:hover{
+    filter: brightness(.7);
+}
+.cross{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+}
+
+.blur.pop-con{
+    visibility: hidden;
+    opacity: 0;
+    top: 10%;
+}
