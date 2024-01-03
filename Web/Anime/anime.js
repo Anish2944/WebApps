@@ -13,7 +13,8 @@ btnEl.addEventListener("click",async function(){
     btnEl.disabled = true;
     btnEl.innerText = "Loading...";
     imgContainerEl.src = "spinner.svg";
-    const result = await fetch("https://api.catboys.com/img");
+    // const result = await fetch("https://api.catboys.com/img");
+    const result = await fetch("https://api.waifu.pics/many/sfw/");
     const data = await result.json();
     btnEl.disabled = false;
     btnEl.innerText = "Get Anime";
