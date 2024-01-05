@@ -40,8 +40,7 @@ function winner() {
         if (p1 != "" && p2 != "" && p3 != "") {
             if (p1 == p2 && p2 ==p3) {
                 msg.innerText = `Winner is "${p1}"`;
-            }
-            
+            }   
         }
     }
 }

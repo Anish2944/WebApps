@@ -55,22 +55,23 @@ body {
     background-color: cyan;
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   body {
-    height: auto;
+    height: 100vh;
   }
 
   .board {
-    grid-template-columns: repeat(3, 50px); /* Adjust columns for smaller screens */
+    grid-template-columns: repeat(3, 55px); /* Adjust columns for smaller screens */
     grid-gap: 1px;
     margin-left: 20px;
+    text-align: center;
   }
 
   .elements {
-    height: 10vmin;
-    width: 10vmin;
-    font-size: 1.3rem;
-    text-align: center;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 1.5rem;
+    padding: 5px;
   }
 
   #reset {
