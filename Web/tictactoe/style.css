@@ -61,7 +61,7 @@ body {
   }
 
   .board {
-    grid-template-columns: repeat(3, 55px); /* Adjust columns for smaller screens */
+    grid-template-columns: repeat(3, 60px); /* Adjust columns for smaller screens */
     grid-gap: 1px;
     margin-left: 20px;
     text-align: center;
